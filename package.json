@@ -1,0 +1,24 @@
+{
+  "name": "game-connect-four",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svn1991/game-connect-four.git"
+  },
+  "author": "Neelima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svn1991/game-connect-four/issues"
+  },
+  "homepage": "https://github.com/svn1991/game-connect-four#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "jest": "^24.8.0"
+  }
+}
