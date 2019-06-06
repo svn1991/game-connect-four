@@ -3,10 +3,11 @@
  * Board Controls
  */
 class Board {
-  this.board = [];
-  this.availableSlots = [];  
 
   constructor(row, column) {
+    this.board = [];
+    this.availableSlots = []; 
+
     for (let i=0; i<row;i++) {
       this.board.push(new Array(column).fill(0));
     }

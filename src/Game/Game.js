@@ -1,9 +1,17 @@
 import Board from '../Board/Board';
 class Game {
-  // toggle between player 1 and 2
-  this.playerTurn = 1;
+  constructor() {
+    // toggle between player 1 and 2
+    this.playerTurn = 1;
+    
+    this.board = this.initiateBoard(6, 7);
+  }
 
   /* TODO: Initiate new board */
+  initiateBoard(row, col) {
+    const boardSetUp = new Board(row, col);
+    return boardSetUp.board;
+  }
 
   /* TODO: Initiate player 1 */
 
