@@ -2,13 +2,11 @@
 /**
  * Abstract component containing player information
  */
-class Player {
-  const info = {
-    name: ""
-  };
-  
+class Player {  
   constructor(name) {
-    info.name = name;
+    this.info = {
+      name
+    };
   }
 
   /* TODO: track selected slots */
