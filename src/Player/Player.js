@@ -11,7 +11,9 @@ class Player {
     info.name = name;
   }
 
-  /*  */
+  /* TODO: track selected slots */
+
+  /* TODO: check if win occurs */
 }
 
 export default Player;

@@ -17,11 +17,11 @@ inquirer
   ])
   .then(answers => {
     if (answers.startGame === "No") {
-
+      console.log('Exiting game! Have a good day!!..:)')
     } else {
-      /* TODO: Ask option of player, computer, smart computer etc */
-
       /* TODO: Initiate game */
+      const game = new Game();
     }
   });
 
+/* TODO: Play another round or end game */
