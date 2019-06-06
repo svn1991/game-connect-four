@@ -1,3 +1,4 @@
+import Game from './src/Game/Game';
 const inquirer = require("inquirer");
 
 console.log("Shall we play connect-four game?");

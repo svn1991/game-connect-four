@@ -1,3 +1,4 @@
+import Board from '../Board/Board';
 class Game {
   // toggle between player 1 and 2
   this.playerTurn = 1;
